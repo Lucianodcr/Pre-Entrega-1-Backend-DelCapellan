@@ -1,3 +1,6 @@
-[{"title":"212 MEN - Carolina Herrera","description":"es una fragancia masculina con una mezcla fresca y dulce que representa la energía de Nueva York. Combina notas cítricas en la salida, especias y flores en el corazón, y maderas cálidas en el fondo. Es ideal para hombres modernos que buscan elegancia y sofisticación en su aroma.","price":55000,"image":"./img/212CH","code":101,"id":1,"status":true,"stock":10},
+[{"nombre":"212 MEN - Carolina Herrera","description":"es una fragancia masculina con una mezcla fresca y dulce que representa la energía de Nueva York. Combina notas cítricas en la salida, especias y flores en el corazón, y maderas cálidas en el fondo. Es ideal para hombres modernos que buscan elegancia y sofisticación en su aroma.","precio":55000,"image":"./img/212CH","code":101,"id":1,"status":true,"stock":10},
 
-{"title":"212 MEN - Carolina Herrera","description":"es una fragancia masculina con una mezcla fresca y dulce que representa la energía de Nueva York. Combina notas cítricas en la salida, especias y flores en el corazón, y maderas cálidas en el fondo. Es ideal para hombres modernos que buscan elegancia y sofisticación en su aroma.","price":55000,"image":"./img/212CH","code":102,"id":2,"status":true,"stock":10}]
+{"nombre":"212 MEN - Carolina Herrera","description":"es una fragancia masculina con una mezcla fresca y dulce que representa la energía de Nueva York. Combina notas cítricas en la salida, especias y flores en el corazón, y maderas cálidas en el fondo. Es ideal para hombres modernos que buscan elegancia y sofisticación en su aroma.","precio":55000,"image":"./img/212CH","code":102,"id":2,"status":true,"stock":10}]
+
+
+

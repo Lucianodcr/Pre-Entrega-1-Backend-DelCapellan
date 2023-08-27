@@ -1,0 +1,49 @@
+<h3 class="titleForm">Crear un nuevo producto</h3>
+<form class="formRealProds" id="idForm">
+
+  <label class="labelForm" for="nombre">Nombre</label>
+  <input class="inputForm" type="text" required name="nombre" />
+
+  <label class="labelForm" for="description">Descripción</label>
+  <input class="inputForm" type="text" required name="description" />
+
+  <label class="labelForm" for="precio">Precio</label>
+  <input class="inputForm" type="number" name="precio" required />
+
+  <label class="labelForm" for="stock">Stock</label>
+  <input class="inputForm" type="number" name="stock" required />
+
+  <label class="labelForm" for="code">Codigo</label>
+  <input class="inputForm" type="text" required name="code" />
+
+  <button type="submit" class="btnForm">Enviar</button>
+</form>
+
+<div class="divTable">
+  <table id="prodTable" class="prodTable">
+    <thead class="tableHead">
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Precio</th>
+        <th>Imagen</th>
+        <th>Code</th>
+        <th>Stock</th>
+      </tr>
+    </thead>
+    <tbody class="tableBody">
+      {{#each products}}
+        <tr>
+          <td>{{this.id}}</td>
+          <td>{{this.nombre}}</td>
+          <td>{{this.description}}</td>
+          <td>{{this.precio}}</td>
+          <td>{{this.image}}</td>
+          <td>{{this.code}}</td>
+          <td>{{this.stock}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
+</div>
